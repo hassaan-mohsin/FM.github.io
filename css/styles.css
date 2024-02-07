@@ -1,0 +1,342 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+#title
+{
+    background-color: #ed7447;
+    color: #fff;
+}
+
+.col-lg-6
+{
+    animation: fadeIn 1.5s forwards;
+    opacity: 0;
+    transition-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    
+}
+
+
+.logo
+{
+    width: 10rem;
+    height: 10rem;
+}
+
+.btn
+{
+    z-index: 1;
+    animation: firstspan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+#h1
+{
+    font-family: 'Montserrat' 1000, sans-serif;
+    font-family: 'Ubuntu' 1000, sans-serif;
+    font-size: 3rem;
+    line-height: 1.6;
+    font-weight: 800;
+    color: black;
+    z-index: 1;
+    animation: firstspan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        transition-timing-function: scale(0);
+    }
+    50%
+    {
+        opacity: 0;
+        transition-timing-function: scale(0);
+    }
+    100%
+    {
+        opacity: 1;
+        transition-timing-function: scale(0);
+    }
+}
+
+@keyframes firstspan {
+    0%
+    {
+        transform: translateY(50%);
+    }
+    60%{
+        transform: translateY(50%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+
+
+
+#P
+{
+    font-family: 'Montserrat' 1000, sans-serif;
+    font-family: 'Ubuntu' 1000, sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    color: black;
+    z-index: 1;
+    animation: firstspan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+#container-fluid
+{
+    
+    padding: 2% 15% 7%;
+}
+
+
+#navbar
+{
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+.nav-item
+{
+    
+    padding: 0 15px;
+    color: black;
+    
+}
+.nav-link
+{
+    
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 500;
+    
+}
+
+
+
+.nav-link::before {
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: #031D44;
+  }
+  
+  .nav-link::before{
+    width: 0%;
+    bottom: 0px;
+  }
+  
+  .nav-link:hover::before{
+    width: 7%;
+  }
+  
+
+#img
+{
+    border-radius: 10%;
+    width: 80%;
+    position: absolute;
+    z-index: 1;
+    animation: firstspan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    
+}
+
+#features
+{
+    padding: 5% 10%;
+    position: relative;
+    font-family: 'Montserrat' , 'Ubuntu';
+}
+.feature-box
+{
+    text-align: center;
+    padding: 4.5%;
+}
+
+#h3
+{
+    font-family: 'Montserrat' , 'Ubuntu';
+    
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure text is above the image */
+}
+
+.image-text p {
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Montserrat' 1000, sans-serif;
+    font-family: 'Ubuntu' 1000, sans-serif;
+    
+}
+
+#testimonials
+{
+    
+    background-color: #ed7447;
+    text-align: center;
+    color: white;
+}
+.carousel-item
+{
+    padding: 6% 15%;
+}
+#h2
+{
+    font-family: 'Montserrat' 1000, sans-serif;
+    font-family: 'Ubuntu' 1000, sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+.services
+{
+    font-family: 'Montserrat' 1000, sans-serif;
+    font-family: 'Ubuntu' 1000, sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    padding-top: 3rem;
+    text-align: center;
+    color: #ed7447;
+    
+}
+
+.row
+{
+    background-color: #c95930;
+    padding-top: 4rem;
+    border-radius: 10%;
+    padding-bottom: 4rem;
+    transition: 1s ease;
+}
+
+.row:hover
+{
+    background-color: #ed7447;
+    
+}
+
+#row
+{
+    margin-top: 4rem;
+    display: flex;
+    padding: 40px;
+    font-family: 'Montserrat' 1000, sans-serif;
+    font-family: 'Ubuntu' 1000, sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+
+
+#plan-head
+{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+#breed-name
+{
+    font-weight: 900;
+    font-family: 'Montserrat' 1000, sans-serif;
+    font-family: 'Ubuntu' 1000, sans-serif;
+    
+    
+}
+#price
+{
+    font-family: 'Montserrat' 1000, sans-serif;
+    font-family: 'Ubuntu' 1000, sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+#cta
+{
+    background-color: #ed7447;
+    text-align: center;
+    padding-top: 4%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+
+}
+#cta-h3
+{
+    color: black;
+    font-family: 'Montserrat' 1000, sans-serif;
+    font-family: 'Ubuntu' 1000, sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.Sh:hover,  .col-lg-4:hover
+{
+    background-color: #ed7447;
+    color: black;
+    transition: 0.7s ease;
+    border-radius: 20%;
+}
+
+
+#download-button
+{
+    margin-top: 50px;
+    font-family: 'Montserrat' 1000, sans-serif;
+    font-family: 'Ubuntu' 1000, sans-serif;
+    font-weight: 500;
+}
+#footer
+{
+    background-color: #ed7447;
+    padding: 1% 10%;
+    text-align: left;
+
+}
+#social-icon
+{
+    margin: 20px 10px;
+}
+
+#reference{
+    text-decoration: none;
+    font-size: large;
+    color: #000000;
+}
+
+@media (max-width: 1000px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    #img
+    {
+        
+         position: static;
+        text-align: center;
+        transform: rotate(0);
+        margin-top: 10px;
+    }
+}
